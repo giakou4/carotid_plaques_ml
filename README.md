@@ -56,7 +56,7 @@ A total of 85 carotid plaque ultrasound images (41 asymptomatic and 44 symptomat
 
 ## Results
 
-<center>
+<div align="center">
   
 | **No** | **Features**           | **Raw** | **PCA** | **mRMR** |
 |--------|------------------------|---------|---------|----------|
@@ -100,7 +100,8 @@ A total of 85 carotid plaque ultrasound images (41 asymptomatic and 44 symptomat
 | 32-33  | All Moments            | 0.8235  | 0.7294  | 0.7647   |
 | 1-33   | All                    | 0.9059  | 0.8588  | 0.5294   |
   
-</center>
+</div>
+
 <p align="center">
     <em> Accuracy for each features set as reported from the best classifier</em>
 </p>
