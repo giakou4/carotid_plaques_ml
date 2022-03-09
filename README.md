@@ -35,7 +35,7 @@ The following packages should be installed:
 * ```xlrd==1.2.0```
 * ```pyfeats==0.0.11```
 
-If any of these packages are not installed on your computer, you can install them using the supplied requirements.txt file:
+If any of these packages are not installed on your computer, you can install them using the supplied requirements.txt file:  
 ```pip install -r requirements.txt```
 
 ## Data
