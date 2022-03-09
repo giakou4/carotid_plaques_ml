@@ -15,6 +15,58 @@ The extraction of multiple hand-crafted features from ultrasound images of carot
     <em>Figure 1: Examples of asymptomatic (A, B) and symptomatic (C, D) plaques as they were segmented from the expert physician</em>
 </p>
 
+## Pre-Requisits
+
+The following packages should be installed:
+
+* ```numpy==1.19.2```
+* ```pandas==1.1.5```
+* ```matplotlib==3.3.4```
+* ```scikit-image==0.17.2```
+* ```scipy==1.5.2```
+* ```cv2==3.3.1```
+* ```pywt==1.1.1```
+* ```mahotas==1.4.11```
+* ```researchpy```
+* ```sklearn==0.24.1```
+* ```pymrmr==0.1.1```
+* ```openpyxl==3.0.5```
+* ```tqdm==4.56.0```
+* ```xlrd==1.2.0```
+* ```pyfeats==0.0.11```
+
+If any of these packages are not installed on your computer, you can install them using the supplied requirements.txt file:  
+```pip install -r requirements.txt```
+
+## Files
+
+* ```bag_of_features.py```: Bag of features - K-Means clustering for visual plotting
+* ```demo.py```: An example of the feature extraction for a specific plaque
+* ```export_features.py```: Export of all the features sets for each plaque with specific parameters
+* ```machine_learning.py```: Machine learning classification using KNN, SVM and RF with specific parameters
+* ```median_pdf_cdf.py```: Plots the median CDF and PDF of the morphological features with specific parameters
+* ```mrmr.py```: Calculates the order of the features significance of the extracted features for each feature set using mRMR algorithm
+* ```pca.py```: Performs PCA in 2 dimensions, plots and saves the results
+* ```univariate_selection.py```: Performs univariate selection saving the mean and std for each class, the distance of the two classes and the p-value
+* ```data```: Due to restriction reasons, dataset is private
+    *  ```plaques```: Manually segmented plaques from the expert physician
+        * ```7LBW1_plaque.tif```
+        * ...
+    *  ```points```: Points defining the plaque in the ultrasound as the expert physician pointed out
+        * ```7LBW1_points```  
+        * ...
+    *  ```points_lumen```: A subset of the points above that define neighbor the lumen
+        * ```7LBW1_points_lumen``` 
+        * ...
+    *  ```ultrasounds```: The original normalized and standarized ultrasounds
+       * ```7LBW1.bmp``` 
+       * ...
+    *  ```labels.xlsx``` or ```labels.csv```: The labels of each plaque: symptomatic or asymptomatic
+* utils
+    * ```Plaque.py```: A class that holds all the information regarding a plaque (ultrasound, points, points near lumen, name) with some useful functions
+    * ```util.py```: A file that holds useful functions and plotting utilities
+    * ```__init__.py ```
+
 ## Material
 
 A total of 85 carotid plaque ultrasound images (41 asymptomatic and 44 symptomatic) producing stenosis in the range of 50% to 99% on duplex scanning are analyzed. The data comrpise a private dataset.
@@ -94,55 +146,3 @@ Table 1 depicts the results of all features sets from the carotid plaque images.
 <p align="center">
     <em> Table 1: Accuracy for each features set as reported from the best classifier</em>
 </p>
-
-## Pre-Requisits
-
-The following packages should be installed:
-
-* ```numpy==1.19.2```
-* ```pandas==1.1.5```
-* ```matplotlib==3.3.4```
-* ```scikit-image==0.17.2```
-* ```scipy==1.5.2```
-* ```cv2==3.3.1```
-* ```pywt==1.1.1```
-* ```mahotas==1.4.11```
-* ```researchpy```
-* ```sklearn==0.24.1```
-* ```pymrmr==0.1.1```
-* ```openpyxl==3.0.5```
-* ```tqdm==4.56.0```
-* ```xlrd==1.2.0```
-* ```pyfeats==0.0.11```
-
-If any of these packages are not installed on your computer, you can install them using the supplied requirements.txt file:  
-```pip install -r requirements.txt```
-
-## Files
-
-* ```bag_of_features.py```: Bag of features - K-Means clustering for visual plotting
-* ```demo.py```: An example of the feature extraction for a specific plaque
-* ```export_features.py```: Export of all the features sets for each plaque with specific parameters
-* ```machine_learning.py```: Machine learning classification using KNN, SVM and RF with specific parameters
-* ```median_pdf_cdf.py```: Plots the median CDF and PDF of the morphological features with specific parameters
-* ```mrmr.py```: Calculates the order of the features significance of the extracted features for each feature set using mRMR algorithm
-* ```pca.py```: Performs PCA in 2 dimensions, plots and saves the results
-* ```univariate_selection.py```: Performs univariate selection saving the mean and std for each class, the distance of the two classes and the p-value
-* ```data```: Due to restriction reasons, dataset is private
-    *  ```plaques```: Manually segmented plaques from the expert physician
-        * ```7LBW1_plaque.tif```
-        * ...
-    *  ```points```: Points defining the plaque in the ultrasound as the expert physician pointed out
-        * ```7LBW1_points```  
-        * ...
-    *  ```points_lumen```: A subset of the points above that define neighbor the lumen
-        * ```7LBW1_points_lumen``` 
-        * ...
-    *  ```ultrasounds```: The original normalized and standarized ultrasounds
-       * ```7LBW1.bmp``` 
-       * ...
-    *  ```labels.xlsx``` or ```labels.csv```: The labels of each plaque: symptomatic or asymptomatic
-* utils
-    * ```Plaque.py```: A class that holds all the information regarding a plaque (ultrasound, points, points near lumen, name) with some useful functions
-    * ```util.py```: A file that holds useful functions and plotting utilities
-    * ```__init__.py ```
