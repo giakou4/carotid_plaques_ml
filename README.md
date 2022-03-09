@@ -4,21 +4,21 @@ The extraction of multiple hand-crafted features from ultrasound images of carot
 
 ## Dependencies
 
-* numpy==1.19.2
-* pandas==1.1.5
-* matplotlib==3.3.4
-* scikit-image==0.17.2
-* scipy==1.5.2
-* cv2==3.3.1
-* pywt==1.1.1
-* mahotas==1.4.11
-* researchpy
-* sklearn==0.24.1
-* pymrmr==0.1.1
-* openpyxl==3.0.5
-* tqdm==4.56.0
-* xlrd==1.2.0
-* pyfeats==0.0.11
+* ```numpy==1.19.2```
+* ```pandas==1.1.5```
+* ```matplotlib==3.3.4```
+* ```scikit-image==0.17.2```
+* ```scipy==1.5.2```
+* ```cv2==3.3.1```
+* ```pywt==1.1.1```
+* ```mahotas==1.4.11```
+* ```researchpy```
+* ```sklearn==0.24.1```
+* ```pymrmr==0.1.1```
+* ```openpyxl==3.0.5```
+* ```tqdm==4.56.0```
+* ```xlrd==1.2.0```
+* ```pyfeats==0.0.11```
 
 ## Data
 
@@ -26,17 +26,17 @@ A total of 85 carotid plaque ultrasound images (41 asymptomatic and 44 symptomat
 
 ## Pipeline
 
-* Raw Image
-* Preprocessing
+1. Ultrasound image
+2. Preprocessing
     * Manual Normalization by linearly adjusting the image so that the median gray level value of the blood is 0, and the median gray level value of the adventitia (artery wall) is about 190
     * Standarization to 20 pixel/mm
     * Manual plaque segmentation
-* Feature Extraction: 33 feature sets including textural, morphological, histogram-based, multi-scale and moment-based features are extracted from the manually segmented plaque images
-* Dimensionality Reduction
+3. Feature Extraction: 33 feature sets including textural, morphological, histogram-based, multi-scale and moment-based features are extracted from the manually segmented plaque images
+4. Dimensionality Reduction
     * Principal Component Analysis (PCA)
     * Minimum Rebundancy - Maximum Relevance (mRMR)
     * Raw Features
-* Classification
+5. Classification
     * K-Nearest Neighbors (KNN)
     * Support Vector Machines (SVM)
     * Random Forests (RF)
