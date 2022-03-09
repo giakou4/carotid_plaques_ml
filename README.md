@@ -15,6 +15,10 @@ The extraction of multiple hand-crafted features from ultrasound images of carot
     <em>Figure 1: Examples of asymptomatic (A, B) and symptomatic (C, D) plaques as they were segmented from the expert physician</em>
 </p>
 
+## Material
+
+A total of 85 carotid plaque ultrasound images (41 asymptomatic and 44 symptomatic) producing stenosis in the range of 50% to 99% on duplex scanning are analyzed. The data comrpise a private dataset.
+
 ## Pre-Requisits
 
 The following packages should be installed:
@@ -37,10 +41,6 @@ The following packages should be installed:
 
 If any of these packages are not installed on your computer, you can install them using the supplied requirements.txt file:  
 ```pip install -r requirements.txt```
-
-## Data
-
-A total of 85 carotid plaque ultrasound images (41 asymptomatic and 44 symptomatic) producing stenosis in the range of 50% to 99% on duplex scanning are analyzed. The data comrpise a private dataset.
 
 ## Pipeline
 
