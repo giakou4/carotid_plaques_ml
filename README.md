@@ -12,7 +12,7 @@ The extraction of multiple hand-crafted features from ultrasound images of carot
 </p>
 
 <p align="center">
-    <em>Examples of asymptomatic (A, B) and symptomatic (C, D) plaques as they were segmented from the expert physician</em>
+    <em>Figure 1: Examples of asymptomatic (A, B) and symptomatic (C, D) plaques as they were segmented from the expert physician</em>
 </p>
 
 ## Dependencies
@@ -55,6 +55,8 @@ A total of 85 carotid plaque ultrasound images (41 asymptomatic and 44 symptomat
     * Random Forests (RF)
 
 ## Results
+
+Table 1 depicts the results of all features sets from the carotid plaque images. This table displays the features sets used for classification and the highest accuracy observed using raw data, PCA exploiting only the components that contributed to 95\% of the variance in the dataset and top 5 features as denoted from the mRMR algorithm.
 
 <div align="center">
   
@@ -103,6 +105,6 @@ A total of 85 carotid plaque ultrasound images (41 asymptomatic and 44 symptomat
 </div>
 
 <p align="center">
-    <em> Accuracy for each features set as reported from the best classifier</em>
+    <em> Table 1: Accuracy for each features set as reported from the best classifier</em>
 </p>
 
