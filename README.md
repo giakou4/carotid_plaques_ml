@@ -53,6 +53,11 @@ A total of 85 carotid plaque ultrasound images (41 asymptomatic and 44 symptomat
     * K-Nearest Neighbors (KNN)
     * Support Vector Machines (SVM)
     * Random Forests (RF)
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/57758089/157421288-53ab53df-3ff6-4223-89bb-23d5ea661f77.png">
+</p>
+
 ## Files
 
 * ```bag_of_features.py```: Bag of features - K-Means clustering for visual plotting
