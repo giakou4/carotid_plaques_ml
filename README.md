@@ -85,7 +85,7 @@ Table 1 depicts the results of all features sets from the carotid plaque images.
 | 21     | PDF High               | 0.7765  | 0.7059  | 0.6941   |
 | 22     | CDF High               | 0.7647  | 0.7412  | 0.7529   |
 | 23     | Histogram              | 0.8824  | 0.8824  | 0.9059   |
-| 24     | Multi-region Histogram | 0.9059  | 0.9176  | 0.9294   |
+| 24     | Multi-region Histogram | 0.9059  | **0.9176**  | **0.9294**   |
 | 25     | Correlogram Distance   | 0.8706  | 0.8235  | 0.8118   |
 | 26     | Correlogram Angle      | 0.8353  | 0.7529  | 0.6706   |
 | 27     | DWT                    | 0.7647  | 0.7412  | 0.7647   |
