@@ -9,7 +9,7 @@ The extraction of multiple hand-crafted features from ultrasound images of carot
 </p>
 
 <p>
-    <em>Examples of asymptomatic (A, B) and symptomatic (C, D) plaques as they were segmented from the expert physician</em>
+    Examples of asymptomatic (A, B) and symptomatic (C, D) plaques as they were segmented from the expert physician
 </p>
 
 ## Dependencies
