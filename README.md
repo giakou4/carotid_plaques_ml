@@ -63,17 +63,17 @@ A total of 85 carotid plaque ultrasound images (41 asymptomatic and 44 symptomat
 * ```mrmr.py```: Calculates the order of the features significance of the extracted features for each feature set using mRMR algorithm
 * ```pca.py```: Performs PCA in 2 dimensions, plots and saves the results
 * ```univariate_selection.py```: Performs univariate selection saving the mean and std for each class, the distance of the two classes and the p-value
-* data:
-    *  plaques: manually segmented plaques from the expert physician
+* ```data```:
+    *  ```plaques```: manually segmented plaques from the expert physician
         * ```7LBW1_plaque.tif```
         * ...
-    *  points: points defining the plaque in the ultrasound as the expert physician pointed out
+    *  ```points```: points defining the plaque in the ultrasound as the expert physician pointed out
         * ```7LBW1_points```  
         * ...
-    *  points_lumen: a subset of the points above that define neighbor the lumen
+    *  ```points_lumen```: a subset of the points above that define neighbor the lumen
         * ```7LBW1_points_lumen``` 
         * ...
-    *  ultrasounds: the original normalized and standarized ultrasounds
+    *  ```ultrasounds```: the original normalized and standarized ultrasounds
        * ```7LBW1.bmp``` 
        * ...
     *  ```labels.xlsx``` or ```labels.csv```: the labels of each plaque: symptomatic or asymptomatic
