@@ -1,9 +1,7 @@
 # Classification of Carotid Plaques based on Features extracted from Ultrasound Images: A Comparative Study
 
-<div align="center">
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/giakou4/carotid_plaques_ml/LICENSE)
-</div>
 
 ## Abstract
 
