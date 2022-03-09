@@ -46,8 +46,8 @@ A total of 85 carotid plaque ultrasound images (41 asymptomatic and 44 symptomat
     * Manual plaque segmentation
 3. Feature Extraction: 33 feature sets including textural, morphological, histogram-based, multi-scale and moment-based features are extracted from the manually segmented plaque images
 4. Dimensionality Reduction
-    * Principal Component Analysis (PCA)
-    * Minimum Rebundancy - Maximum Relevance (mRMR)
+    * Feature Projection: Principal Component Analysis (PCA)
+    * Feature Selection: Minimum Rebundancy - Maximum Relevance (mRMR)
     * Raw Features
 5. Classification
     * K-Nearest Neighbors (KNN)
