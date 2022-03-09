@@ -53,6 +53,34 @@ A total of 85 carotid plaque ultrasound images (41 asymptomatic and 44 symptomat
     * K-Nearest Neighbors (KNN)
     * Support Vector Machines (SVM)
     * Random Forests (RF)
+## Files
+
+* ```bag_of_features.py```: Bag of features - K-Means clustering for visual plotting
+* ```demo.py```: An example of the feature extraction for a specific plaque
+* ```export_features.py```: Export of all the features sets for each plaque with specific parameters
+* ```machine_learning.py```: Machine learning classification using KNN, SVM and RF with specific parameters
+* ```median_pdf_cdf.py```: Plots the median CDF and PDF of the morphological features with specific parameters
+* ```mrmr.py```: Calculates the order of the features significance of the extracted features for each feature set using mRMR algorithm
+* ```pca.py```: Performs PCA in 2 dimensions, plots and saves the results
+* ```univariate_selection.py```: Performs univariate selection saving the mean and std for each class, the distance of the two classes and the p-value
+* data:
+    *  plaques: manually segmented plaques from the expert physician
+        * ```7LBW1_plaque.tif```
+        * ...
+    *  points: points defining the plaque in the ultrasound as the expert physician pointed out
+        * ```7LBW1_points```  
+        * ...
+    *  points_lumen: a subset of the points above that define neighbor the lumen
+        * ```7LBW1_points_lumen``` 
+        * ...
+    *  ultrasounds: the original normalized and standarized ultrasounds
+       * ```7LBW1.bmp``` 
+       * ...
+    *  ```labels.xlsx``` or ```labels.csv```: the labels of each plaque: symptomatic or asymptomatic
+* utils
+    * ```Plaque.py```: a class that holds all the information regarding a plaque (ultrasound, points, points near lumen, name) with some useful functions
+    * ```util.py```: a file that holds useful functions and plotting utilities
+    * ```__init__.py ```
 
 ## Results
 
