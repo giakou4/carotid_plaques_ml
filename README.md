@@ -15,7 +15,9 @@ The extraction of multiple hand-crafted features from ultrasound images of carot
     <em>Figure 1: Examples of asymptomatic (A, B) and symptomatic (C, D) plaques as they were segmented from the expert physician</em>
 </p>
 
-## Dependencies
+## Pre-Requisits
+
+The following packages should be installed:
 
 * ```numpy==1.19.2```
 * ```pandas==1.1.5```
@@ -32,6 +34,9 @@ The extraction of multiple hand-crafted features from ultrasound images of carot
 * ```tqdm==4.56.0```
 * ```xlrd==1.2.0```
 * ```pyfeats==0.0.11```
+
+If any of these packages are not installed on your computer, you can install them using the supplied requirements.txt file:
+```pip install -r requirements.txt```
 
 ## Data
 
