@@ -91,9 +91,8 @@ A total of 85 carotid plaque ultrasound images (41 asymptomatic and 44 symptomat
     * Random Forests (RF)
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/57758089/157421526-f875a946-f962-479b-a2e0-cad3ff8a2a3e.png">
+  <img src="https://user-images.githubusercontent.com/57758089/157636684-ebbacf0a-ace0-4f5d-ad8d-0f53a84c56c5.png">
 </p>
-
 
 ## Results
 
