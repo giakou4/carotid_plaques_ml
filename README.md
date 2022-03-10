@@ -27,15 +27,15 @@ The following packages should be installed:
 * ```scikit-image==0.17.2```
 * ```scipy==1.5.2```
 * ```cv2==3.3.1```
-* ```pywt==1.1.1```
-* ```mahotas==1.4.11```
 * ```researchpy```
 * ```sklearn==0.24.1```
-* ```pymrmr==0.1.1```
 * ```openpyxl==3.0.5```
 * ```tqdm==4.56.0```
 * ```xlrd==1.2.0```
-* ```pyfeats==0.0.11```
+* ```pyfeats==0.0.11``` (check out my work at https://pypi.org/project/pyfeats/ and https://github.com/giakou4/pyfeats)
+    * ```pymrmr==0.1.1```
+    * ```mahotas==1.4.11``
+    * ```pywt==1.1.1```
 
 If any of these packages are not installed on your computer, you can install them using the supplied requirements.txt file:  
 ```pip install -r requirements.txt```
