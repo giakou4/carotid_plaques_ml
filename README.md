@@ -34,7 +34,7 @@ The following packages should be installed:
 * ```xlrd==1.2.0```
 * ```pyfeats==0.0.11``` (check out my work at https://pypi.org/project/pyfeats/ and https://github.com/giakou4/pyfeats)
     * ```pymrmr==0.1.1```
-    * ```mahotas==1.4.11``
+    * ```mahotas==1.4.11```
     * ```pywt==1.1.1```
 
 If any of these packages are not installed on your computer, you can install them using the supplied requirements.txt file:  
