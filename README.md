@@ -2,6 +2,9 @@
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/giakou4/carotid_plaques_ml/LICENSE)
+[![stars](https://img.shields.io/github/stars/giakou4/advanced-audio-encoder.svg)](https://img.shields.io/github/stars/giakou4/carotid_plaques_ml.svg)
+[![size](https://img.shields.io/github/languages/code-size/giakou4/advanced-audio-encoder)](https://img.shields.io/github/languages/code-size/giakou4/carotid_plaques_ml)
+
 
 A machine learnign pipeline (including optional dimensionality reduction) for delineated plaque classification based on manually extracted features.
 
