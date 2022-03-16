@@ -34,7 +34,7 @@ The following packages should be installed:
 * ```openpyxl==3.0.5```
 * ```tqdm==4.56.0```
 * ```xlrd==1.2.0```
-* ```pyfeats==0.0.11``` (check out my work at https://pypi.org/project/pyfeats/ and https://github.com/giakou4/pyfeats)
+* ```pyfeats==1.0.0``` (check out my work at https://pypi.org/project/pyfeats/ and https://github.com/giakou4/pyfeats)
 
 If any of these packages are not installed on your computer, you can install them using the supplied requirements.txt file:  
 ```pip install -r requirements.txt```
